@@ -20,7 +20,8 @@ public class Baralho {
     }
 
     public Carta tirarCarta() {
-        return this.cartas.remove(0);
+          Carta cartaASerDada= this.cartas.remove(0);
+          return cartaASerDada;
     }
 
     public int cartasRestantes() {
